@@ -26,8 +26,8 @@ const earthTexture = textureLoader.load("/2k_earth.png");
 const marsTexture = textureLoader.load("/2k_mars.png");
 const jupiterTexture = textureLoader.load("/8k_jupiter.jpg");
 const saturnTexture = textureLoader.load("/8k_saturn.jpg");
-const uranusTexture = textureLoader.load("/8k_uranus.jpg");
-const neptuneTexture = textureLoader.load("/8k_neptune.jpg");
+const uranusTexture = textureLoader.load("/2k_uranus.jpg");
+const neptuneTexture = textureLoader.load("/2k_neptune.jpg");
 
 // === Materials (use StandardMaterial so they react to lights) ===
 const mercuryMaterial = new THREE.MeshStandardMaterial({ map: mercuryTexture });
